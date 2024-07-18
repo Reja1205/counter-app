@@ -1,0 +1,20 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+}
+button {
+  font-size: 24px;
+  margin: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
