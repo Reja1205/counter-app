@@ -1,6 +1,6 @@
 const counterTag = document.getElementById("counter");
 const plusBtn = document.getElementById("plusBtn");
-const resetBtn = document.getElementById("resetBtn");
+// const resetBtn = document.getElementById("resetBtn");
 const minusBtn = document.getElementById("minusBtn");
 
 let counter = 0;
@@ -29,8 +29,8 @@ minusBtn.addEventListener("click", () => {
   updateCounter(-1);
 });
 
-resetBtn.addEventListener("click", () => {
-  counterTag.textContent = "0";
-  minusBtn.removeAttribute("disabled", false);
-  plusBtn.removeAttribute("disabled", false);
-});
+// resetBtn.addEventListener("click", () => {
+//   counterTag.textContent = "0";
+//   minusBtn.removeAttribute("disabled", false);
+//   plusBtn.removeAttribute("disabled", false);
+// });
